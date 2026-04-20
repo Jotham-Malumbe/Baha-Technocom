@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="About Baha Technocom - Your trusted shop for phones, electronics and accessories in Emasatsi Market.">
+
+    <title>About - Baha Technocom</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-container">
+
+        <div class="logo">
+            <h1>Baha Technocom</h1>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="cart-icon" onclick="window.location.href='index.html'">
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+
+        <button class="hamburger" onclick="toggleMobileMenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div id="mobile-menu" class="mobile-menu">
+        <a href="index.html" onclick="toggleMobileMenu()">Products</a>
+        <a href="about.html" onclick="toggleMobileMenu()">About</a>
+        <a href="contact.html" onclick="toggleMobileMenu()">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+    <div class="hero-content">
+        <h2>About Baha Technocom</h2>
+        <p>Trusted electronics & phone accessories shop in Emasatsi Market</p>
+    </div>
+</header>
+
+<!-- CONTENT -->
+<main>
+
+<div class="about-section">
+
+    <div class="about-container">
+
+        <!-- STORY -->
+        <div class="about-story">
+            <h2>Our Story</h2>
+            <p>
+                Baha Technocom was founded with one goal — to provide affordable and reliable electronics,
+                phones, and accessories to customers in Emasatsi Market and beyond.
+            </p>
+
+            <p>
+                We focus on quality gadgets, fair pricing, and honest service. Whether you need a charger,
+                headphones, or a new phone, we’ve got you covered.
+            </p>
+        </div>
+
+        <!-- VALUES -->
+        <div class="about-values">
+            <h2>Why Choose Us</h2>
+
+            <div class="values-grid">
+
+                <div class="value-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Quality Devices</h3>
+                    <p>We sell tested and reliable electronics and accessories.</p>
+                </div>
+
+                <div class="value-card">
+                    <i class="fas fa-tags"></i>
+                    <h3>Affordable Prices</h3>
+                    <p>Fair pricing for all customers without hidden costs.</p>
+                </div>
+
+                <div class="value-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Fast Orders</h3>
+                    <p>Quick WhatsApp ordering and fast response time.</p>
+                </div>
+
+                <div class="value-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Trusted Service</h3>
+                    <p>We value honesty and long-term customer trust.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- LOCATION -->
+        <div class="about-location">
+            <h2>Visit Us</h2>
+
+            <p><strong>Location:</strong> Emasatsi Market</p>
+            <p><strong>Phone:</strong> 0115652612</p>
+            <p><strong>WhatsApp:</strong> 254115652612</p>
+            <p><strong>Hours:</strong> 8:00 AM - 7:00 PM Daily</p>
+
+        </div>
+
+        <!-- CLOSING -->
+        <div class="about-closing">
+            <p>
+                Thank you for choosing Baha Technocom. We are committed to giving you the best electronics deals
+                and reliable service every day.
+            </p>
+
+            <p style="margin-top:2rem; font-weight:600; color:#2563eb;">
+                — Baha Technocom Team
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div class="shop-info">
+            <h3>Baha Technocom</h3>
+            <p>Emasatsi Market • Phones & Electronics</p>
+        </div>
+
+        <div class="made-by">
+            <p>Website by <strong>ChartCart Studio</strong></p>
+            <a href="https://wa.me/254115652612" target="_blank" class="start-own">
+                Start your own online shop →
+            </a>
+        </div>
+
+        <div class="copyright">
+            &copy; 2026 Baha Technocom. All rights reserved.
+        </div>
+
+    </div>
+
+</footer>
+
+<script>
+function toggleMobileMenu() {
+    const menu = document.getElementById("mobile-menu");
+    menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+}
+</script>
+
+</body>
+</html>
