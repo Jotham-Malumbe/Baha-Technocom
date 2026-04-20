@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Baha Technocom - Phones, electronics & accessories at affordable prices in Emasatsi Market. Order easily via WhatsApp.">
+    
+    <title>Baha Technocom | Electronics & Phone Accessories</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Baha Technocom</h1>
+            </div>
+
+            <div class="nav-links">
+                <a href="#menu">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="cart-icon" onclick="toggleCart()">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count" class="cart-count">0</span>
+            </div>
+
+            <button class="hamburger" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- MOBILE MENU -->
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#menu" onclick="toggleMobileMenu()">Products</a>
+            <a href="about.html" onclick="toggleMobileMenu()">About</a>
+            <a href="contact.html" onclick="toggleMobileMenu()">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero-content">
+            <h2>Phones • Accessories • Electronics</h2>
+            <p>Affordable gadgets and quality accessories at Emasatsi Market.</p>
+            <a href="#menu" class="btn-primary">Shop Now</a>
+        </div>
+    </header>
+
+    <!-- PRODUCTS -->
+    <section id="menu" class="menu-section">
+        <div class="section-header">
+            <h2>Our Products</h2>
+            <p>Tap to add to cart and order via WhatsApp</p>
+        </div>
+
+        <div id="products-container" class="products-grid">
+            <!-- Loaded via JS -->
+        </div>
+    </section>
+
+    <!-- CART SIDEBAR -->
+    <div id="cart-sidebar" class="cart-sidebar">
+
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button onclick="toggleCart()" class="close-btn">✕</button>
+        </div>
+
+        <div id="cart-items" class="cart-items"></div>
+
+        <div class="cart-total">
+            <div class="total-row">
+                <span>Subtotal:</span>
+                <span id="subtotal">KSh 0</span>
+            </div>
+
+            <div class="grand-total">
+                <span>Total:</span>
+                <span id="grand-total">KSh 0</span>
+            </div>
+        </div>
+
+        <button onclick="sendOrderToWhatsApp()" class="btn-whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            Order via WhatsApp
+        </button>
+    </div>
+
+    <!-- FLOATING CART -->
+    <button onclick="toggleCart()" class="floating-cart-btn">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="floating-cart-count">0</span>
+    </button>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+
+            <div class="shop-info">
+                <h3>Baha Technocom</h3>
+                <p>Emasatsi Market • Phones & Electronics</p>
+            </div>
+
+            <div class="made-by">
+                <p>Website by <strong>ChartCart Studio</strong></p>
+                <a href="https://wa.me/254115652612" target="_blank" class="start-own">
+                    Get your own online shop →
+                </a>
+            </div>
+
+            <div class="copyright">
+                &copy; 2026 Baha Technocom. All rights reserved.
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="config.js"></script>
+    <script src="products.json"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

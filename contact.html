@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Contact Baha Technocom for phones, electronics and accessories in Emasatsi Market. Order easily via WhatsApp.">
+
+    <title>Contact - Baha Technocom</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-container">
+
+        <div class="logo">
+            <h1>Baha Technocom</h1>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="cart-icon" onclick="window.location.href='index.html'">
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+
+        <button class="hamburger" onclick="toggleMobileMenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div id="mobile-menu" class="mobile-menu">
+        <a href="index.html" onclick="toggleMobileMenu()">Products</a>
+        <a href="about.html" onclick="toggleMobileMenu()">About</a>
+        <a href="contact.html" onclick="toggleMobileMenu()">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+    <div class="hero-content">
+        <h2>Contact Us</h2>
+        <p>We are always ready to serve you</p>
+    </div>
+</header>
+
+<!-- CONTACT SECTION -->
+<main>
+
+<div class="about-section">
+
+    <div class="about-container">
+
+        <!-- CONTACT INFO -->
+        <div class="about-story">
+            <h2>Get In Touch</h2>
+
+            <p>
+                For orders, inquiries, or support, contact us directly via WhatsApp or call.
+            </p>
+
+            <div style="margin-top:1.5rem; line-height:2;">
+                <p><strong>📍 Location:</strong> Emasatsi Market</p>
+                <p><strong>📞 Phone:</strong> 0115652612</p>
+                <p><strong>💬 WhatsApp:</strong> 254115652612</p>
+                <p><strong>🕒 Hours:</strong> 8:00 AM - 7:00 PM</p>
+            </div>
+        </div>
+
+        <!-- QUICK ACTION -->
+        <div class="about-values">
+
+            <h2>Quick Actions</h2>
+
+            <div class="values-grid">
+
+                <div class="value-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp Order</h3>
+                    <p>Fastest way to place your order.</p>
+
+                    <a href="https://wa.me/254115652612" target="_blank"
+                       style="display:inline-block; margin-top:10px; color:#25D366; font-weight:600;">
+                        Chat Now →
+                    </a>
+                </div>
+
+                <div class="value-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Call Us</h3>
+                    <p>Speak directly with our shop.</p>
+
+                    <a href="tel:0115652612"
+                       style="display:inline-block; margin-top:10px; color:#2563eb; font-weight:600;">
+                        Call Now →
+                    </a>
+                </div>
+
+                <div class="value-card">
+                    <i class="fas fa-store"></i>
+                    <h3>Visit Shop</h3>
+                    <p>Come to Emasatsi Market.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- NOTE -->
+        <div class="about-closing">
+            <p>
+                We respond quickly during working hours. For best service, use WhatsApp ordering from the menu page.
+            </p>
+
+            <p style="margin-top:2rem; font-weight:600; color:#2563eb;">
+                — Baha Technocom Support Team
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div class="shop-info">
+            <h3>Baha Technocom</h3>
+            <p>Emasatsi Market • Phones & Electronics</p>
+        </div>
+
+        <div class="made-by">
+            <p>Website by <strong>ChartCart Studio</strong></p>
+            <a href="https://wa.me/254115652612" target="_blank" class="start-own">
+                Start your own online shop →
+            </a>
+        </div>
+
+        <div class="copyright">
+            &copy; 2026 Baha Technocom. All rights reserved.
+        </div>
+
+    </div>
+
+</footer>
+
+<script>
+function toggleMobileMenu() {
+    const menu = document.getElementById("mobile-menu");
+    menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+}
+</script>
+
+</body>
+</html>
