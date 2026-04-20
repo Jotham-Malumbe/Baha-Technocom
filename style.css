@@ -59,7 +59,7 @@ body {
 
 /* ================= HERO ================= */
 .hero {
-    background:
+    background:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url('https://res.cloudinary.com/dwaqbsthr/image/upload/v1776330790/banner%20image.png')
     center/cover no-repeat;
 
